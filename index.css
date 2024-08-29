@@ -80,5 +80,60 @@
   padding-left: 20px;
 }
 
+#installLogo{
+  width: 20px;
+}
+
+.installApp{
+  padding-top: 50px;
+  padding-left: 20px;
+  width: 125px;
+}
+
+#installAppAnchor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightBox{
+  background-color: #202020;
+  width: 200vh;
+  height: 100vh;
+}
+
+.arrowsImg{
+  width: 75px;
+}
+
+.arrows{
+  padding: 20px 30px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileImg{
+  width: 100px;
+}
+
+.goodMorning{
+  padding: 40px 30px 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.goodMorningParent{
+  padding-top: 30px;
+  display: flex ;
+  justify-content: space-between;
+}
+
+.shows{
+  display: flex;
+}
 
 
+
+
+body{
+  display: flex;
+}
