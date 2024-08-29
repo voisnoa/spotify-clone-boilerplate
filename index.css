@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans",sans-serif;
+  text-decoration: none;
+  color:white
+}
+
+.leftBox{
+  background-color:black;
+  width: 215px;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#spotify-logo{
+  height: 35px;
+}
+
+.spotifyLogo{
+  display: flex;
+  justify-content: left;
+  padding-top:30px;
+  padding-left: 20px;
+}
+
+.homeElements{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 20px;
+  justify-content: space-between;
+  height: 100px;
+  width: 150px;
+}
+
+.homeElementsLogo{
+  height: 20px;
+}
+
+.homeElementsAnchor{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.createPlaylist{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 20px;
+  justify-content: space-between;
+  height: 100px;
+  width: 150px;
+}
+
+.createPlaylistLogo{
+  height: 20px;
+}
+
+.createPlaylistAnchor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.FAV{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 175px;
+  font-size: 15px;
+}
+
+
+.FAVAnchor{
+  padding-left: 20px;
+}
+
+
+
